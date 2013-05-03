@@ -9,3 +9,14 @@ Tech:
 * Websockets
 * Canvas
 * Javscript
+* Redis
+
+Redis layout:
+
+    game_ids = [ int ] # a game id is :game:<id>
+    lobby_ids = [ int ] # a lobby id is :lobby:<id>
+    player_ids = [ int ] # :player:<id>
+    game_names = { game_id : name<string> }
+    game_judge = { game_id : player_id }
+    game_<id>_players = [ player_id ]
+    game_submitted_images = { player_id : image_blob<string> }
