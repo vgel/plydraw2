@@ -8,4 +8,4 @@ Tech:
 * Flask
 * Websockets
 * Canvas
-*Javscript
+* Javscript
